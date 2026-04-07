@@ -90,3 +90,21 @@ watchdog==6.0.0
 ```Bash
 streamlit run app.py
 ```
+
+### 3. 🔑 API 키
+
+1. `.env` 파일을 새로 만듭니다.
+2. `.env.example` 파일 안의 내용을 `.env` 파일에 붙여 넣습니다.
+3. API키를 입력합니다.
+
+## 아두이노
+
+### 사용 라이브러리
+
+- [ArduinoJson 7](https://arduinojson.org/)
+
+### 사용 부품
+
+- 조도 센서: A0
+- 서보모터: D9
+
