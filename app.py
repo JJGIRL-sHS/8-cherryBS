@@ -56,14 +56,22 @@ if st.session_state.ser is not None:
 else:
     st.sidebar.error(f"{port}를 찾을 수 없습니다.")
 
-# =========================================================
-# [구역 2] 리소스 및 외부 연결 관리
-# =========================================================
-
 
 # =========================================================
 # [구역 3] 상태 초기화
 # =========================================================
+
+if "raw_data" not in st.session_state:
+    st.session_state.raw_data = []
+
+if "angle" not in st.session_state:
+    st.session_state.angle = 90
+
+if "last_sent_angle" not in st.session_state:
+    st.session_state.last_sent_angle = 90
+
+if "current_light" not in st.session_state:
+    st.session_state.current_light = 0
 
 
 # =========================================================
@@ -95,6 +103,7 @@ if "chat_session" not in st.session_state:
         ),
     )
 
+
 # =========================================================
 # [구역 5] 데이터 수집
 # =========================================================
@@ -115,4 +124,3 @@ page = st.navigation(pages=pages)
 st.title(f"{page.icon} {page.title}")
 
 page.run()
-
