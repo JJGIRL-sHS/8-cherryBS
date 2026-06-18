@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="282" viewBox="0 0 680 282" font-family="'Apple SD Gothic Neo','Helvetica Neue',sans-serif" role="img"><title>스마트 신호등 v3 상태표</title>
+<rect x="0" y="0" width="680" height="282" fill="#ffffff"/>
+<text x="24" y="40" font-size="13" fill="#5F5E5A">상태</text>
+<text x="256" y="40" text-anchor="middle" font-size="13" fill="#5F5E5A">차량 (적·황·녹)</text>
+<text x="373" y="40" text-anchor="middle" font-size="13" fill="#5F5E5A">보행자 (적·녹)</text>
+<text x="438" y="40" font-size="13" fill="#5F5E5A">유지</text>
+<text x="556" y="40" font-size="13" fill="#5F5E5A">의미</text>
+<line x1="20" y1="54" x2="660" y2="54" stroke="#C9C7BD" stroke-width="1"/>
+<text x="24" y="91" font-family="'SF Mono','Menlo',monospace" font-size="13" fill="#2C2C2A">VEHICLE_PASS</text>
+<circle cx="230" cy="86" r="7" fill="#ffffff" stroke="#B4B2A9" stroke-width="1.5"/>
+<circle cx="256" cy="86" r="7" fill="#ffffff" stroke="#B4B2A9" stroke-width="1.5"/>
+<circle cx="282" cy="86" r="7" fill="#639922"/>
+<circle cx="360" cy="86" r="7" fill="#E24B4A"/>
+<circle cx="386" cy="86" r="7" fill="#ffffff" stroke="#B4B2A9" stroke-width="1.5"/>
+<text x="438" y="91" font-size="13" fill="#2C2C2A">≥10초 + 요청</text>
+<text x="556" y="91" font-size="13" fill="#5F5E5A">차량 통행</text>
+<line x1="20" y1="106" x2="660" y2="106" stroke="#E8E6DE" stroke-width="1"/>
+<text x="24" y="131" font-family="'SF Mono','Menlo',monospace" font-size="13" fill="#2C2C2A">VEHICLE_WARNING</text>
+<circle cx="230" cy="126" r="7" fill="#ffffff" stroke="#B4B2A9" stroke-width="1.5"/>
+<circle cx="256" cy="126" r="7" fill="#EF9F27"/>
+<circle cx="282" cy="126" r="7" fill="#ffffff" stroke="#B4B2A9" stroke-width="1.5"/>
+<circle cx="360" cy="126" r="7" fill="#E24B4A"/>
+<circle cx="386" cy="126" r="7" fill="#ffffff" stroke="#B4B2A9" stroke-width="1.5"/>
+<text x="438" y="131" font-size="13" fill="#2C2C2A">3초</text>
+<text x="556" y="131" font-size="13" fill="#5F5E5A">차량 정지 준비</text>
+<line x1="20" y1="146" x2="660" y2="146" stroke="#E8E6DE" stroke-width="1"/>
+<text x="24" y="171" font-family="'SF Mono','Menlo',monospace" font-size="13" fill="#2C2C2A">PEDESTRIAN_PASS</text>
+<circle cx="230" cy="166" r="7" fill="#E24B4A"/>
+<circle cx="256" cy="166" r="7" fill="#ffffff" stroke="#B4B2A9" stroke-width="1.5"/>
+<circle cx="282" cy="166" r="7" fill="#ffffff" stroke="#B4B2A9" stroke-width="1.5"/>
+<circle cx="360" cy="166" r="7" fill="#ffffff" stroke="#B4B2A9" stroke-width="1.5"/>
+<circle cx="386" cy="166" r="7" fill="#639922"/>
+<text x="438" y="171" font-size="13" fill="#2C2C2A">7초</text>
+<text x="556" y="171" font-size="13" fill="#5F5E5A">보행자 통행</text>
+<line x1="20" y1="186" x2="660" y2="186" stroke="#E8E6DE" stroke-width="1"/>
+<text x="24" y="211" font-family="'SF Mono','Menlo',monospace" font-size="13" fill="#2C2C2A">PEDESTRIAN_WARNING</text>
+<circle cx="230" cy="206" r="7" fill="#E24B4A"/>
+<circle cx="256" cy="206" r="7" fill="#ffffff" stroke="#B4B2A9" stroke-width="1.5"/>
+<circle cx="282" cy="206" r="7" fill="#ffffff" stroke="#B4B2A9" stroke-width="1.5"/>
+<circle cx="360" cy="206" r="7" fill="#ffffff" stroke="#B4B2A9" stroke-width="1.5"/>
+<circle cx="386" cy="206" r="7" fill="#639922"><animate attributeName="opacity" values="1;1;0.12;0.12" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></circle>
+<text x="438" y="211" font-size="13" fill="#2C2C2A">3초</text>
+<text x="556" y="211" font-size="13" fill="#5F5E5A">보행 종료 경고</text>
+<circle cx="28" cy="254" r="7" fill="#639922"/>
+<text x="42" y="258" font-size="12" fill="#5F5E5A">켜짐</text>
+<circle cx="118" cy="254" r="7" fill="#ffffff" stroke="#B4B2A9" stroke-width="1.5"/>
+<text x="132" y="258" font-size="12" fill="#5F5E5A">꺼짐</text>
+<circle cx="208" cy="254" r="7" fill="#639922"/>
+<text x="222" y="258" font-size="12" fill="#5F5E5A">점멸(0.5초)</text>
+<text x="330" y="258" font-size="12" fill="#5F5E5A">· 보행자 황색(D12) 미사용</text>
+</svg>
