@@ -20,7 +20,7 @@ for content in st.session_state.chat_session.get_history():
             render_part(part)
 
             
-if prompt := st.chat_input("메시지를 입력하세요."):
+if prompt := st.chat_input("챗봇에게 물어보기"):
     with st.chat_message("user"):
         st.markdown(prompt)
     
